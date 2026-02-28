@@ -13,3 +13,4 @@ user: User = User(name="Druzhinin Artem", id=1)
 @app.get("/users")
 def userInfo():
     return {"name": user.name, "id": user.id}
+
